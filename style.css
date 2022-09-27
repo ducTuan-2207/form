@@ -1,0 +1,87 @@
+body {
+  background: url("https://cdn.dienthoaivui.com.vn/wp-content/uploads/2020/10/hinh-nen-iphone-12-19-1024x1024.jpg")
+    no-repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+label {
+  color: #fff;
+}
+.form-book {
+  display: block;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+
+  margin: 0 auto;
+}
+.img-form {
+  display: flex;
+}
+.img-form img {
+  border-radius: 5px;
+}
+.img-form img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 5px;
+}
+
+.input-form input {
+  width: 600px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-top: 7px;
+  border-radius: 20px;
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title_form h2 {
+  background: orange;
+  padding: 6px 10px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.img-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dic {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+  word-break: normal;
+}
+button {
+  margin-top: 7px;
+  margin-bottom: 70px;
+  width: 600px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-top: 7px;
+  border-radius: 20px;
+  background: orange;
+  color: #fff;
+  font-size: 550;
+}
+button:hover {
+  cursor: pointer;
+  background: #f7c05c;
+}
